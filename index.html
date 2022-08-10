@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Doña Salta</title>
 </head>
@@ -12,50 +13,73 @@
     <div class="container_grid">
         <!--inicio del header-->
         <header class="encabezado">
-            <nav>
-                <img src="./img/IMG_20220702_171231_063.jpg" alt="Logo de empanada" width="200 px" class="logo">
-                <ul class="navegador">
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./pages/productos.html">Productos</a></li>
-                    <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="./pages/ubicacion.html">Ubicacion</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>   
+            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-darkgrey">
+                <div class="container-fluid">
+                  <a  href="#" class="navbar-brand"> 
+                    <img src="./img/IMG_20220702_171231_063.jpg" alt="Logo de empanada" />
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="flase" aria-label="Barra de navegacion">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="mainNav">
+                    <div class="nav ms-auto flex-colum flex-md-row">
+                      <ul class="navbar-nav text-brown">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/ubicacion.html">Ubicacion</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </nav>
         </header>
         <!--fin del header-->
         <hr>
         <!--imagen de empanadas horneadas-->
         <main>
-            <section class="inicio">
+            <div class="container">
+              <section class="inicio">
                 <div class="primer_imagen">
-                    <h1 class="animate__animated animate__heartBeat animate__delay-1s animate__repeat-3">SABORES DEL NORTE</h1>
+                  <h1 class="animate__animated animate__heartBeat animate__delay-1s animate__repeat-3">SABORES DEL NORTE</h1>
                 </div>
-            </section>
-            <!--segunda parte del menu inicial-->
-            <section class="inicio_medio">
-                <div class="clases">
-                    <img src="./img/IMG_20220702_171226_970.jpg" alt="especialidades_del_norte" class="especialidades" width="150 px">
-                    <h3>Especialidades</h3>
-                    <img src="./img/IMG_20220702_171224_343.jpg" alt="otras_variedades" class="variedades" width="150 px">
-                    <h3>Otras Variedades</h3>
-                    <img src="./img/IMG_20220702_171155_042.jpg" alt="especialidades_frizadas" class="frizadas" width="150 px">
-                    <h3>Especialiades Frizadas</h3>
-                </div>    
-            </section>
-            <!--tercera parte del menu inicial-->
-            <section class="inicio_final">
+              </section>
+              <!--segunda parte del menu inicial-->
+              <section class="inicio_medio">
+                  <div class="clases">
+                      <img src="./img/IMG_20220702_171226_970.jpg" alt="especialidades_del_norte" class="especialidades" width="150 px">
+                      <h3>Especialidades</h3>
+                      <img src="./img/IMG_20220702_171224_343.jpg" alt="otras_variedades" class="variedades" width="150 px">
+                      <h3>Otras Variedades</h3>
+                      <img src="./img/IMG_20220702_171155_042.jpg" alt="especialidades_frizadas" class="frizadas" width="150 px">
+                      <h3>Especialiades Frizadas</h3>
+                  </div>    
+              </section>
+              <!--tercera parte del menu inicial-->
+              <section class="inicio_final">
                 <div class="parrafo_inicial">
-                    <h3>SABORES QUE ENCANTAN</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Why do we use it?
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                    </p>
+                  <h3>SABORES QUE ENCANTAN</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Why do we use it?
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                  </p>
                 </div>   
                 <div class="imagen_final">
-                    <img src="./img/IMG_20220702_171150_050.jpg" alt="caja_de _empanadas" width="350px">    
+                  <img src="./img/IMG_20220702_171150_050.jpg" alt="caja_de _empanadas" width="350px">    
                 </div>
-            </section> 
+              </section> 
+            </div>
         </main>
         <footer>
             <!-- inicio de pie de pagina-->
@@ -79,5 +103,6 @@
         </footer>
     </div>
     <!-- final de pie de pagina-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
