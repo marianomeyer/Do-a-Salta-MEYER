@@ -22,7 +22,7 @@ li{
                          "main" 
                          "footer";
     grid-template-columns: auto; 
-    grid-template-rows:auto;                    
+    grid-template-rows: auto;                    
 }
 
 .container2_grid{
