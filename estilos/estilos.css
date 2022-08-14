@@ -78,7 +78,16 @@ li{
     color: brown;
 }
 
+.navbar-nav{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: rgb(136, 39, 39);
+}
 
+.navbar-nav{
+    text-decoration: none;
+    color: rgb(45, 39, 136);
+}
 /*css de los mains */
 main{
     margin-top: 7rem;
