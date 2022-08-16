@@ -1,0 +1,26 @@
+/*css del footer*/
+footer{
+    background-color: darkgray;
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 1.5rem;
+   h4{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    font-size:1.6rem;
+   }
+   .derechos_reservados{
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+   }
+}

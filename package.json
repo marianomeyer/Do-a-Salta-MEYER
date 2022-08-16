@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-desarrollo-web",
+  "version": "1.0.0",
+  "description": "venta empanadas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos3.scss css/estilos3.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianomeyer/Do-a-Salta-MEYER.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianomeyer/Do-a-Salta-MEYER/issues"
+  },
+  "homepage": "https://github.com/marianomeyer/Do-a-Salta-MEYER#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
