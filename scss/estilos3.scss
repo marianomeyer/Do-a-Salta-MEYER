@@ -1,59 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 @import './variables/variables';
 @import './variables/header';
+@import './variables/mainubicacion';
 @import './variables/footer';
 @import './variables/mediaquerie';
 
-/*margin y padding 0*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.container_grid{
-    min-height: 100vh;
-    display: grid;
-    grid-template-areas: "header"
-                         "main" 
-                         "footer";
-    grid-template-columns: auto; 
-    grid-template-rows:auto;                    
-}
 
-.container2_grid{
-    min-height: 100vh;
-    display: grid;
-    grid-template-areas: "header"
-                         "main" 
-                         "footer";
-    grid-template-columns: auto; 
-    grid-template-rows:auto;                    
-}
-
-/*main ubicacion*/
-main{
-    display: flex;
-    grid-area: main;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    background-color: beige;  
-}
-
-.ubicacion{
-    .podes_encontrarnos{
-        display: flex;
-        flex-direction: column;
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-size: 50px;
-        font-weight: bold;
-        position: relative;
-        text-align: center;
-        color: forestgreen;
-    }
-}
 
 
 

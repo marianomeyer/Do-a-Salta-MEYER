@@ -6,6 +6,9 @@
         gap: 150px;
         width:550px;
         font-size: 20%;
+        .encabezado nav img{
+            width: 20%;
+        }
     }
     
     .navegador{
@@ -13,17 +16,12 @@
         list-style: none;
         gap: 20px;
         font-size:10%;
-    }
-
-    .encabezado nav img{
-        width: 20%;
-    }
-
-    .navegador li a{
-        text-decoration: none;
-        font-size: 1.3rem;
-        align-content: space-between;
-        color: brown;
+        .navegador li a{
+            text-decoration: none;
+            font-size: 1.3rem;
+            align-content: space-between;
+            color: brown;
+        }
     }
 
     .container_grid{
@@ -36,70 +34,70 @@
         grid-template-rows:auto;                    
     }
 
-    h1{
-        font-style: normal;
-        font-weight: bolder;
-        font-size:70px;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-        position: relative;
-        width: 100%;
-        color: rgba(68, 6, 6, 0.987);
-    }
+    
 
-    h2{font-family: 'Roboto', sans-serif;
+    h2{
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-size: 25px;
         font-weight: bold;
         color: darkblue;
 
     }
+
     .inicio{
         width: 85%;
-    }
+        .inicio_medio{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            }
+            .clases{
+                display: flex;
+                flex-direction: row;
+                justify-content: left;
+                align-items: left;
+                width:100%;
+                gap:5px;
+            }
+            h1{
+                font-style: normal;
+                font-weight: bolder;
+                font-size:70px;
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                position: relative;
+                width: 100%;
+                color: rgba(68, 6, 6, 0.987);
+            }
+    } 
 
-    .inicio_medio{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .clases{
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-        align-items: left;
-        width:100%;
-        gap:5px;
-    }
     
     .inicio_final{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 5px;
-        width:100%;  
-    }
-    
-    .parrafo_inicial{
-        display: flex;
-        flex-direction: column;
-        font-style: normal;
-        font-weight: bold;
-        font-size:15px;
-        font-family: 'Poppins', sans-serif;
-        text-align: center;
-        text-transform: uppercase;
-        color: firebrick;
-        width: 80%;
-        margin-top: 150px; 
-    }
-
-    .imagen_final{
-        display: flex;
-        align-items: center;
-        width: auto;
-        margin: top 100px;
+        width:100%;
+        .parrafo_inicial{
+            display: flex;
+            flex-direction: column;
+            font-style: normal;
+            font-weight: bold;
+            font-size:15px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+            color: firebrick;
+            width: 80%;
+            margin-top: 150px;}
+            .imagen_final{
+                display: flex;
+                align-items: center;
+                width: auto;
+                margin: top 100px;
+            }  
+        
     }
 
     .container2_grid{
@@ -133,7 +131,7 @@
     }
 
     footer{
-        font: size 0.8rem;
+        font-size: 0.8rem;
         align-items: center;
         display: flex;
         width: auto;
@@ -150,6 +148,9 @@
     .encabezado nav{
         width:100%;
         font-size: 15%;
+        .encabezado nav img{
+            width: 25%;
+        }
     }
 
     .navegador{
@@ -157,18 +158,13 @@
         list-style: none;
         gap: 2px;
         font-size:10%;
-    }
-
-    .encabezado nav img{
-        width: 25%;
-    }
-
-    .navegador li a{
-        text-decoration: none;
-        flex-direction: column;
-        font-size: 0.65rem;
-        justify-content: center;
-        color: brown;
+        .navegador li a{
+            text-decoration: none;
+            flex-direction: column;
+            font-size: 0.65rem;
+            justify-content: center;
+            color: brown;
+        }
     }
 
     .container_grid{
@@ -183,18 +179,19 @@
 
     .inicio{
         width: 75%;
+        h1{
+            font-style: normal;
+            font-weight: bolder;
+            font-size:1.8rem;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            position: relative;
+            width: 100%;
+            color: rgba(68, 6, 6, 0.987);
+        }
     }
 
-    h1{
-        font-style: normal;
-        font-weight: bolder;
-        font-size:1.8rem;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-        position: relative;
-        width: 100%;
-        color: rgba(68, 6, 6, 0.987);
-    }
+    
 
     h2{
         font-family: 'Roboto', sans-serif;
@@ -208,43 +205,42 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        .clases{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            gap: 20px;
+        }
     }
 
-    .clases{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 70%;
-        gap: 20px;
-    }
+    
     
     .inicio_final{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         gap: 30px;
-        width:100%;  
+        width:100%;
+        .parrafo_inicial{
+            display: flex;
+            flex-direction: column;
+            font-style: normal;
+            font-weight: bold;
+            font-size:15px;
+            font-family: 'Poppins', sans-serif;
+            text-align: left;
+            text-transform: uppercase;
+            color: firebrick;
+            width: 75%; 
+        }
+        .imagen_final{
+            display: flex;
+            width: 300px;
+        }  
     }
     
-    .parrafo_inicial{
-        display: flex;
-        flex-direction: column;
-        font-style: normal;
-        font-weight: bold;
-        font-size:15px;
-        font-family: 'Poppins', sans-serif;
-        text-align: left;
-        text-transform: uppercase;
-        color: firebrick;
-        width: 75%; 
-    }
-
-    .imagen_final{
-        display: flex;
-        width: 300px;
-    }
-
     .container2_grid{
         min-height: 100vh;
         display: grid;

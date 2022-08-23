@@ -1,31 +1,26 @@
-.encabezado{
+.encabezado {
     grid-area: header;
     display: flex;
     flex-direction: column;
-    background-color: darkgrey;
-}
+    background-color: $color-primario; }
+    .encabezado nav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        background-color: $color-primario;
+        gap: 20px;}
+        .encabezado nav img{
+           width: 10%; }
 
-.encabezado nav{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    background-color: darkgrey;
-    gap: 20px;
-}
-
-.encabezado nav img{
-    width: 10%;
-}
 
 .navegador{
     display: flex;
     list-style: none;
-    gap: 20px;
-}
+    gap: 20px; }
+    .navegador li a{
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: $color-texto-header;
+    }
 
-.navegador li a{
-    text-decoration: none;
-    font-size: 1.8rem;
-    color: brown;
-}

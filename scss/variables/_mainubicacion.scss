@@ -1,0 +1,23 @@
+/*main ubicacion*/
+main{
+    display: flex;
+    grid-area: main;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: $color-secundario;  
+}
+
+.ubicacion{
+    .podes_encontrarnos{
+        display: flex;
+        flex-direction: column;
+        font-family: $tipografia-principal;
+        font-style: $tipografia-estilo;
+        font-size: 50px;
+        font-weight: $tipografia-peso-general;
+        position: relative;
+        text-align: center;
+        color: forestgreen;
+    }
+}

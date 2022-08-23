@@ -1,6 +1,6 @@
 /*css del footer*/
 footer{
-    background-color: darkgray;
+    background-color: $color-primario;
     grid-area: footer;
     display: flex;
     align-items: center;
@@ -11,16 +11,33 @@ footer{
    h4{
     display: flex;
     align-items: center;
-    font-style: normal;
-    font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
+    font-style: $tipografia-estilo;
+    font-weight: $tipografia-peso-particular;
+    font-family: $tipografia-principal;
     padding: 30px;
     font-size:1.6rem;
    }
    .derechos_reservados{
     display: flex;
-    font-style: normal;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-style: $tipografia-estilo;
+    font-weight: $tipografia-peso-general;
+    font-family: $tipografia-principal;
    }
 }
+
+.footer .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eae9e8;
+    .footer .links a {
+        margin: 0px 30px;
+        background-color: #eae9e8;}
+        .footer .links a i {
+            color: #865B21;
+            font-size: 2rem;
+            background-color: #eae9e8;}
+            .footer .links a i:hover {
+                color: #000;
+                transition: 0.7s;}
+}   

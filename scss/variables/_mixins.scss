@@ -1,0 +1,10 @@
+@mixin links($nombre){
+    @if $nombre == instagram {
+        color: aqua;
+    }@else if $nombre == facebook{
+        color: blueviolet;
+    }@else { /*sino cumple ninguna condicion anterio */
+        color: black;
+    }
+    
+}
