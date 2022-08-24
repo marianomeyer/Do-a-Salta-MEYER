@@ -30,3 +30,16 @@ $tipografia-secundaria: 'Poppins', sans-serif;
 $tipografia-estilo: normal;
 $tipografia-peso-general: bold;
 $tipografia-peso-particular: bolder;
+
+/*mapa*/
+$colores:(
+    color_inicial:darkgrey,
+    color_menu: beige,
+    color_letras_inicial: brown
+);
+
+$size:(
+    comun: normal,
+    general: bold,
+    particular: bolder
+);

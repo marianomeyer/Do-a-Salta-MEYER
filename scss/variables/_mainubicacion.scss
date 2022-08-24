@@ -5,7 +5,7 @@ main{
     flex-direction: column;
     align-content: center;
     align-items: center;
-    background-color: $color-secundario;  
+    background-color: map-get($colores,color_menu);  
 }
 
 .ubicacion{
@@ -13,9 +13,9 @@ main{
         display: flex;
         flex-direction: column;
         font-family: $tipografia-principal;
-        font-style: $tipografia-estilo;
+        font-style: map-get($size,comun);
         font-size: 50px;
-        font-weight: $tipografia-peso-general;
+        font-weight: map-get($size,general);
         position: relative;
         text-align: center;
         color: forestgreen;

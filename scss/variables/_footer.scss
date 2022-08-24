@@ -1,6 +1,6 @@
 /*css del footer*/
 footer{
-    background-color: $color-primario;
+    background-color: map-get($colores,color_inicial);
     grid-area: footer;
     display: flex;
     align-items: center;
@@ -11,16 +11,16 @@ footer{
    h4{
     display: flex;
     align-items: center;
-    font-style: $tipografia-estilo;
-    font-weight: $tipografia-peso-particular;
+    font-style: map-get($size,comun);
+    font-weight: map-get($size,particular);
     font-family: $tipografia-principal;
     padding: 30px;
     font-size:1.6rem;
    }
    .derechos_reservados{
     display: flex;
-    font-style: $tipografia-estilo;
-    font-weight: $tipografia-peso-general;
+    font-style: map-get($size,comun);
+    font-weight: map-get($size,general);
     font-family: $tipografia-principal;
    }
 }
