@@ -1,77 +1,282 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"  content="Empanadas del Norte, Empanadas Frizadas, Sabores del Norte, Empanadas">
-    <meta name="description" content="Fabricamos Empanadas con sabores del norte Argentino, tambien fabricamos otras variedas de empanadas y se pueden comprar frizadas para que puedas degustarlas cuando gustes">
-    <link rel="stylesheet" href="../estilos/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>Doña Salta: Productos</title>
-    <link rel="shortcut icon" href="./img/IMG_20220702_171231_063.jpg">
-</head>
-<body>
-    <div class="container3_grid">
-        <!--inicio del header-->
-        <header class="encabezado">
-            <nav>
-                <img src="../img/IMG_20220702_171231_063.jpg" alt="Logo de empanada" width="200 px" class="logo">
-                <ul class="navegador">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="ubicacion.html">Ubicacion</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>   
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="¡En Doña Salta encontras una amplia variedad de productos, incluidas nuestras empanadas artesanales del norte frizadas para que puedas cocinarlas cuadno gustes!">
+        <meta name="keywords" content="Empanadas de Queso, Empanadas Salteñas, Empanadas Frizadas Salteñas, Empanadas de Atún, Empanadas de Jamon y Queso">
+        <title>Productos | Doña Salta</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../css/estilos3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <script src="https://kit.fontawesome.com/5a26ebec28.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="headerStyle">
+            <nav class="navbar navbar-expand-lg"> 
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarToggler" 
+                        aria-controls="navbarToggler" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="../index.html" class="navbar-brand">
+                        <img src="../img/logodoñasalta.png" loading="lazy" width="150px" class="logoHeader animate__animated animate__pulse animate__slower" alt="Logo Doña Salta">
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="../index.html">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="productos.html">
+                                    Productos
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="nosotros.html">
+                                    Nosotros
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="ubicacion.html">
+                                    Ubicación
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="contacto.html">
+                                    Contacto
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
         <!--fin del header-->
-        <hr>
-        <main class="productos">
-            <p class="nuestros_productos animate__animated animate__flip">NUESTROS PRODUCTOS</p>
-            <div class="variedad_principal">
-                <h2 class="animate__animated animate__rubberBand animate__delay-1s animate__repeat-3">ESPECIALIDADES DEL NORTE</h2>
-                <img src="../img/IMG_20220702_171224_343.jpg" alt="empanadas de carne" width="350px">
-                <img src="../img/IMG_20220702_171226_970.jpg" alt="empanadas de pollo" width="350px">
-                <img src="../img/IMG_20220702_171219_779.jpg" alt="empanadas de queso" width="350px">
-                <img src="../img/IMG_20220702_171322_053.jpg" alt="humita" width="300px">
-            </div>
-            <div class="otras_variedades">
-                <h2 class="animate__animated animate__rotateIn animate__delay-1s animate__repeat-3">OTRAS VARIEDADES</h2>
-                <img src="../img/empanadas arabes.jpg" alt="empanadas arabes" width="350px">
-                <img src="../img/empanadas jamon y queso.jpg" alt="empanadas de jamon y queso" width="350px">
-                <img src="../img/empanadas atun.jpg" alt="empanadas de atun" width="350px">
-                <img src="../img/empanadas choclo.jpg" alt="empanadas de choclo" width="350px">
-            </div>
-            <div class="variedad_frizadas">
-                <h2 class="animate__animated animate__jackInTheBox animate__delay-1s animate__repeat-3">ESPECIALIDADES FRIZADAS</h2>
-                <img src="../img/IMG_20220702_171155_042.jpg" alt="empanadas de carne" width="350px">
-                <img src="../img/IMG_20220702_171216_708.jpg" alt="empanadas de pollo" width="350px">
-                <img src="../img/IMG_20220702_171306_430.jpg" alt="empanadas de queso" width="350px">
-            </div>
+        <main>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <h2 class="indigoText textStyle smallTitlePages animate__animated animate__flip animate__delay-1s animate__repeat-2">NUESTROS PRODUCTOS</h2>
+                        <p class="pagesParagraph animate__animated animate__rubberBand animate__delay-1s animate__repeat-2">Puedes ver nuestra variedad de productos</p>
+                    </div>
+                    <div class="row">
+                        <div class="flipCard col-md-6 col-lg-4 col-12">
+                            <div class="d-flex flex-column align-items-center flipCardImage">
+                                <img srcset="../img/empanadassalteñas-500.jpg 500w,
+                                            ../img/empanadassalteñas-790.jpg 790w,    
+                                            ../img/empanadassalteñas-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="../img/empanadassalteñas-1024.jpg"
+                                    loading="lazy" 
+                                    alt="Empanadas Salteñas" 
+                                    class="imgCard productosAndRecetasImages">
+                                <h3 class="flipCardText textStyle">Empanadas Salteñas</h3>
+                            </div>
+                        </div>
+                        <div class="flipCard col-md-6 col-lg-4 col-12">
+                            <div class="d-flex flex-column align-items-center flipCardImage">
+                                <img srcset="../img/empanadasdepollo-500.jpg 500w,
+                                            ../img/empanadasdepollo-790.jpg 790w,    
+                                            ../img/empanadasdepollo-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="../img/empanadasdepollo-1024.jpg"  
+                                    loading="lazy" 
+                                    alt="Empanadas de Pollo" 
+                                    class="imgCard productosAndRecetasImages">
+                                <h3 class="flipCardText textStyle">Empanadas de Pollo</h3>
+                            </div>
+                        </div>
+                        <div class="flipCard col-md-6 col-lg-4 col-12">
+                            <div class="d-flex flex-column align-items-center flipCardImage">
+                                <img srcset="../img/empanadasdequeso-500.jpg 500w,
+                                            ../img/empanadasdequeso-790.jpg 790w,    
+                                            ../img/empanadasdequeso-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="../img/empanadasdequeso-1024.jpg"  
+                                    loading="lazy" 
+                                    alt="Empanadas de Queso" 
+                                    class="imgCard productosAndRecetasImages">
+                                <h3 class="flipCardText textStyle">Empanadas de Queso</h3>
+                            </div>
+                        </div>
+                        <div class="flipCard col-md-6 col-lg-4 col-12">
+                            <div class="d-flex flex-column align-items-center flipCardImage">
+                                <img srcset="../img/empanadasdechoclo-500.jpg 500w,
+                                            ../img/empanadasdechoclo-790.jpg 790w,    
+                                            ../img/empanadasdechoclo-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="../img/empanadasdechoclo-1024.jpg" 
+                                    loading="lazy" 
+                                    alt="Empanadas de Choclo" 
+                                    class="imgCard productosAndRecetasImages">
+                                <h3 class="flipCardText textStyle">Empanadas de Choclo</h3>
+                            </div>
+                        </div>
+                        <div class="flipCard col-md-6 col-lg-4 col-12">
+                            <div class="d-flex flex-column align-items-center flipCardImage">
+                                <img srcset="../img/empanadasjyq-500.jpg 500w,
+                                            ../img/empanadasjyq-790.jpg 790w,    
+                                            ../img/empanadasjyq-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="../img/empanadasjyq-1024.jpg" 
+                                    loading="lazy" 
+                                    alt="Empanadas de Jamon y Queso" 
+                                    class="imgCard productosAndRecetasImages">
+                                <h3 class="flipCardText textStyle">Empanadas de Jamon y Queso</h3>
+                            </div>
+                        </div>
+                        <div class="flipCard col-md-6 col-lg-4 col-12">
+                            <div class="d-flex flex-column align-items-center flipCardImage">
+                                <img srcset="../img/empanadasdeatun-500.jpg 500w,
+                                            ../img/empanadasdeatun-790.jpg 790w,    
+                                            ../img/empanadasdeatun-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="../img/empanadasdeatun-1024.jpg" 
+                                    loading="lazy" 
+                                    alt="Empanadas de Atún" 
+                                    class="imgCard productosAndRecetasImages">
+                                <h3 class="flipCardText textStyle">Empanadas de Atún</h3>
+                            </div>
+                        </div>
+                        <div class="flipCard col-md-6 col-lg-4 col-12">
+                            <div class="d-flex flex-column align-items-center flipCardImage">
+                                <img srcset="../img/empanadasfrizadassalteñas-500.jpg 500w,
+                                            ../img/empanadasfrizadassalteñas-790.jpg 790w,    
+                                            ../img/empanadasfrizadassalteñas-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="../img/empanadasfrizadassalteñas-1024.jpg" 
+                                    loading="lazy" 
+                                    alt="Empanadas Frizadas Salteñas" 
+                                    class="imgCard productosAndRecetasImages">
+                                <h3 class="flipCardText textStyle">Empanadas Frizadas Salteñas</h3>
+                            </div>
+                        </div>
+                        <div class="flipCard col-md-6 col-lg-4 col-12">
+                            <div class="d-flex flex-column align-items-center flipCardImage">
+                                <img srcset="../img/empanadasfrizadasdequeso-500.jpg 500w,
+                                            ../img/empanadasfrizadasdequeso-790.jpg 790w,    
+                                            ../img/empanadasfrizadasdequeso-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="../img/empanadasfrizadasdequeso-1024.jpg"  
+                                loading="lazy" 
+                                alt="Empanadas Frizadas de Queso" 
+                                class="imgCard productosAndRecetasImages">
+                                <h3 class="flipCardText textStyle">Empanadas Frizadas de Queso</h3>
+                            </div>
+                        </div>
+                        <div class="flipCard col-md-6 col-lg-4 col-12">
+                            <div class="d-flex flex-column align-items-center flipCardImage">
+                                <img srcset="../img/empanadasfrizadasdepollo-500.jpg 500w,
+                                            ../img/empanadasfrizadasdepollo-790.jpg 790w,    
+                                            ../img/empanadasfrizadasdepollo-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="../img/empanadasfrizadasdepollo-1024.jpg" 
+                                    loading="lazy" 
+                                    alt="Empanadas Frizadas de Pollo" 
+                                    class="imgCard productosAndRecetasImages">
+                                <h3 class="flipCardText textStyle">Empanadas Frizadas de Pollo</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer>
-            <!-- inicio de pie de pagina-->
-            <h4 class="animate__animated animate__lightSpeedInRight animate__delay-2s animate__repeat-3">
-                PODES SEGUIRNOS EN NUESTRAS REDES
-            </h4>
-            <div class="links">
-                <a href="https://facebook.com" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://whatsapp.com" target="_blank">
-                    <i class="fab-fa-whatsapp whatsapp-icon"></i>
-                </a>
+        <footer class="footerStyle">
+            <div class="py-1">
+                <div class="container-fluid pt-5 pb-4">
+                    <div class="row">
+                        <div class="col-md-2 col-12 d-md-block d-flex justify-content-center">
+                            <a href="../index.html">
+                            <img src="../img/logodoñasalta.png" loading="lazy"alt="Logo Doña Salta"class="logoFooter img-fluid" width="150px">
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <div>
+                                <h4 class="h4Footer mb-0 ">
+                                    Entregas:
+                                </h4>
+                            </div>
+                            <div>
+                                <p class="pFooter">
+                                    Viernes y Sabados: <br> 19:00 pm a 23:30 pm
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">   
+                        </div>
+                        <!-- Nuestras Redes solo para mobile -->
+                        <div class="col-md-2 d-block d-md-none mb-1">
+                            <h4 class="h4Footer mb-0">
+                                Seguinos en Nuestras Redes
+                            </h4>
+                            <div>
+                                <a href="https://api.whatsapp.com/send?phone=541112345678&text=Hola,%20Doña%20Salta%20!" 
+                                    target="_blank">    
+                                    <i class="fa-brands fa-whatsapp iconWhatsapp"></i>
+                                </a>
+                                <a href="https://facebook.com" target="_blank">
+                                    <i class="fab fa-facebook-f iconFacebook"></i>
+                                </a>
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <i class="fab fa-instagram iconInstagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Nuestras Redes solo para desktop -->
+                        <div class="col-md-2 d-none d-md-block">
+                            <h4 class="h4Footer mb-0">
+                                Seguinos en Nuestras Redes
+                            </h4>
+                            <div>
+                                <a href="https://api.whatsapp.com/send?phone=541112345678&text=Hola,%20Doña%20Salta%20!" 
+                                    target="_blank">    
+                                    <i class="fa-brands fa-whatsapp iconWhatsapp"></i>
+                                </a>
+                                <a href="https://facebook.com" target="_blank">
+                                    <i class="fab fa-facebook-f iconFacebook"></i>
+                                </a>
+                                <a href="https://instagram.com" target="_blank">
+                                    <i class="fab fa-instagram iconInstagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center text-muted copy derechos_reservados animate__animated animate__headShake animate__delay-2s animate__repeat-2">&copy; Copyright 2022 Doña Salta</p>
             </div>
-            <p class="derechos_reservados animate__animated animate__lightSpeedInLeft animate__delay-2s animate__repeat-3">
-                Copyright 2022 Doña Salta
-            </p>
         </footer>
-    <!-- final de pie de pagina-->
-    </div>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+            crossorigin="anonymous">
+        </script>
+    </body>
 </html>

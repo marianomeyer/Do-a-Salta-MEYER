@@ -1,45 +1,81 @@
-/*margin y padding 0*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  box-sizing: border-box;
+  color: black; }
 
-.container_grid{
-    min-height: 100vh;
-    display: grid;
-    grid-template-areas: "header"
-                         "main" 
-                         "footer";
-    grid-template-columns: auto; 
-    grid-template-rows:auto;                    
-}
+a {
+  text-decoration: none; }
 
-.container2_grid{
-    @extend .container_grid;                 
-}
+.bigText {
+  font-size: 80px; }
 
-/* colores */
-$color-primario: darkgrey;
-$color-secundario: beige;
-$color-texto-header: brown;
+.smallText, .smallTitlePages {
+  font-size: 30px;
+  padding: 2% 0; }
+
+.smallTitlePages {
+  font-size: 32px;
+  padding: 0; }
+
+.cardText {
+  font-size: 22px; }
+
+.blueText {
+  color: #7f94ff;
+  font-size: 35px; }
+
+.greenText {
+  color: green;
+  font-size: 35px; }
+
+.redText {
+  color: red;
+  font-size: 35px; }
+
+.indigoText {
+  color: indigo;
+  font-size: 35px; }
+
+.orangeText {
+  color: orange; }
+
+.brownText {
+  color: brown; }  
+
+.whiteText {
+  color: white; }
+
+.textStyle {
+  font-weight: bolder;
+  text-align: center; }
+
+.pagesParagraph {
+  text-align: center;
+  padding: 1% 0; }
+
+.imagesSize {
+  height: 600px;
+  width: 500px; }
 
 /*tipografia*/
-$tipografia-principal: 'Roboto', sans-serif;
-$tipografia-secundaria: 'Poppins', sans-serif;
+$tipografia-principal: 'Poppins', sans-serif;
 $tipografia-estilo: normal;
 $tipografia-peso-general: bold;
 $tipografia-peso-particular: bolder;
 
 /*mapa*/
 $colores:(
-    color_inicial:darkgrey,
+    color_inicial:rgb(233, 233, 121),
+    color_final: darkgrey,
     color_menu: beige,
-    color_letras_inicial: brown
+    color_letras_inicial: rgb(62, 11, 110)
 );
 
 $size:(
     comun: normal,
-    general: bold,
     particular: bolder
 );

@@ -1,85 +1,329 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"  content="Empanadas del Norte, Doña Salta Empanadas, Sabores del Norte Salteño, Empanadas, Empanadas Salteñas">
-    <meta name="description" content="Local de empanadas de distinta variedad especializados en empanadas de tipo Salteñas y Arabes">
-    <link rel="stylesheet" href="./estilos/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>Doña Salta</title>
-</head>
-<body>
-    <div class="container_grid">
-        <!--inicio del header-->
-        <header class="encabezado">
-            <nav>
-                <img src="./img/IMG_20220702_171231_063.jpg" alt="Logo de empanada" width="200 px" class="logo">
-                <ul class="navegador">
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./pages/productos.html">Productos</a></li>
-                    <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="./pages/ubicacion.html">Ubicacion</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>   
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="¡Doña Salta se dedica a la producción de las mejores empanadas artesanales del norte argentino!">
+        <meta name="keywords" content="Doña Salta, Algunos Productos, Sobre Nosotros, Donde Estamos, Ponete en Contacto">
+        <title>Contacto | Doña Salta</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./css/estilos3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <script src="https://kit.fontawesome.com/5a26ebec28.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="headerStyle">
+            <nav class="navbar navbar-expand-lg"> 
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarToggler" 
+                        aria-controls="navbarToggler" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="./index.html" class="navbar-brand">
+                        <img src="./img/logodoñasalta.png" loading="lazy" width="150px" class="logoHeader animate__animated animate__pulse animate__slower" alt="Logo Doña Salta">
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./index.html">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./pages/productos.html">
+                                    Productos
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./pages/nosotros.html">
+                                    Nosotros
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./pages/ubicacion.html">
+                                    Ubicación
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./pages/contacto.html">
+                                    Contacto
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
         <!--fin del header-->
-        <hr>
         <!--imagen de empanadas horneadas-->
         <main>
-            <section class="inicio">
-                <div class="primer_imagen">
-                    <h1 class="animate__animated animate__heartBeat animate__delay-1s animate__repeat-3">SABORES DEL NORTE</h1>
+            <!--Sección 1 - Nombre de la tienda-->
+            <section class="nombreBackground py-5">
+                <div class="container-fluid py-5">
+                    <div class="row py-5">
+                        <div>
+                            <h1 class="bigText brownText textStyle animate__animated animate__zoomIn animate__repeat-3">
+                                Doña Salta
+                            </h1>
+                            <h2 class="smallText brownText textStyle bolderText animate__animated animate__zoomIn animate__repeat-3">
+                                Empanadas Artesanales
+                            </h2>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <!--segunda parte del menu inicial-->
-            <section class="inicio_medio">
-                <div class="clases">
-                    <img src="./img/IMG_20220702_171226_970.jpg" alt="especialidades_del_norte" class="especialidades" width="150 px">
-                    <h3>Especialidades</h3>
-                    <img src="./img/IMG_20220702_171224_343.jpg" alt="otras_variedades" class="variedades" width="150 px">
-                    <h3>Otras Variedades</h3>
-                    <img src="./img/IMG_20220702_171155_042.jpg" alt="especialidades_frizadas" class="frizadas" width="150 px">
-                    <h3>Especialiades Frizadas</h3>
-                </div>    
-            </section>
-            <!--tercera parte del menu inicial-->
-            <section class="inicio_final">
-                <div class="parrafo_inicial">
-                    <h3>SABORES QUE ENCANTAN</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Why do we use it?
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                    </p>
-                </div>   
-                <div class="imagen_final">
-                    <img src="./img/IMG_20220702_171150_050.jpg" alt="caja_de _empanadas" width="350px">    
+            <!--Productos-->
+            <section class="py-4">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="indigoText textStyle smallText animate__animated animate__heartBeat animate__repeat-3">Algunos Productos</h2>
+                    </div>
+                    <div class="row py-4">
+                        <div class="col-md-6 col-lg-4 col-12 py-2">
+                            <div class="card cardStyle">
+                                <img srcset="./img/empanadassalteñas-500.jpg 500w,
+                                            ./img/empanadassalteñas-790.jpg 790w,    
+                                            ./img/empanadassalteñas-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="./img/empanadassalteñas-1024.jpg"
+                                    loading="lazy"
+                                    alt="Empanadas Salteñas" 
+                                    class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-text cardText">Empanadas Salteñas</h5>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="./pages/productos.html" class="cardButtonWidth">
+                                            <button class="styleButton cardButton">Ver</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-12 py-2">
+                            <div class="card cardStyle">
+                                <img srcset="./img/empanadasjyq-500.jpg 500w,
+                                            ./img/empanadasjyq-790.jpg 790w,    
+                                            ./img/empanadasjyq-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="./img/empanadasjyq-1024.jpg" 
+                                    loading="lazy"
+                                    alt="Empanadas de jamon y queso"  
+                                    class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-text cardText">Empanadas de Jamon y Queso</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="./pages/productos.html" class="cardButtonWidth">
+                                            <button class="styleButton cardButton">Ver</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-12 py-2">
+                            <div class="card cardStyle">
+                                <img srcset="./img/empanadasfrizadassalteñas-500.jpg 500w,
+                                            ./img/empanadasfrizadassalteñas-790.jpg 790w,    
+                                            ./img/empanadasfrizadassalteñas-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="./img/empanadasfrizadassalteñas-1024.jpg" 
+                                    alt="Empanadas Salteñas Frizadas"
+                                    loading="lazy"
+                                    class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-text cardText">Empanadas Frizadas Salteñas</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="./pages/productos.html" class="cardButtonWidth">
+                                            <button class="styleButton cardButton">Ver</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section> 
+            </section>
+            <!--Nosotros-->
+            <section class="nosotros">
+                <div class="py-3 py-md-5 text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <img srcset="./img/empanadascocinadas-500.jpg 500w,
+                                            ./img/empanadascocinadas-790.jpg 790w,    
+                                            ./img/empanadascocinadas-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="./img/empanadascocinadas-1024.jpg" 
+                                    loading="lazy" 
+                                    alt="Empanadas Cocinadas"
+                                    class="img-fluid pb-2">
+                            </div>
+                            <div class="px-md-5 d-flex flex-column justify-content-center col-md-6 col-12">
+                                <h2 class="redText textStyle smallText">Sobre nosotros</h2>
+                                <p class="pSections">
+                                    La vida es demasiado corta y el tiempo es escazo, 
+                                    no lo pierdas cocinando. 
+                                    Doña Salta es la solución. 
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="./pages/nosotros.html">
+                                        <button class="styleButton paragrahAndButton">Ver más</button>
+                                    </a>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Contacto-->
+            <section class="contactoInicio">
+                <div class="py-3 py-md-5 text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="px-md-5 d-flex flex-column justify-content-center col-md-6 col-12">
+                                <h2 class="blueText textStyle smallText">Ponete en Contacto</h2>
+                                <p class="pSections">
+                                    No puedes comprar la felicidad, pero puedes disfrutar 
+                                    del placer y sabor de una buena empanada artesanal.
+                                    Doña Salta es tú oportunidad.
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="./pages/contacto.html">
+                                        <button class="styleButton paragrahAndButton">Ver más</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <img srcset="./img/dibujoempanada-500.jpg 500w,
+                                            ./img/dibujoempanada-790.jpg 790w,    
+                                            ./img/dibujoempanada-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 1024px,
+                                            1024px"
+                                    src="./img/dibujoempanada-1024.jpg" 
+                                    loading="lazy" 
+                                    alt="Tortas de Pan" class="img-fluid"> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Ubicacion-->
+            <section class="Ubicación">
+                <div class="py-3 py-md-5 text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <img srcset="./img/tapacaja-500.jpg 500w,
+                                            ./img/tapacaja-790.jpg 790w,    
+                                            ./img/tapacaja-1024.jpg 1024w" 
+                                    sizes="(max-width: 320px) 500px,
+                                            (max-width: 768px) 790px,
+                                            1024px"
+                                    src="./img/tapacaja-1024.jpg" 
+                                    loading="lazy" 
+                                    alt="Tapa Caja Doña Salta"
+                                    class="img-fluid pb-2">
+                            </div>
+                            <div class="px-md-5 d-flex flex-column justify-content-center col-md-6 col-12">
+                                <h2 class="greenText textStyle smallText">Donde Estamos</h2>
+                                <p class="pSections">
+                                    Haz click en el boton para poder ver donde nos encontramos, 
+                                    y ver si estas en rango de envío. 
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="./pages/ubicacion.html">
+                                        <button class="styleButton paragrahAndButton">Ver más</button>
+                                    </a>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>         
         </main>
-        <footer>
-            <!-- inicio de pie de pagina-->
-            <h4 class="animate__animated animate__lightSpeedInRight animate__delay-2s animate__repeat-3">
-                PODES SEGUIRNOS EN NUESTRAS REDES
-            </h4>
-            <div class="links">
-                <a href="https://facebook.com" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://whatsapp.com" target="_blank">
-                    <i class="fab-fa-whatsapp whatsapp-icon"></i>
-                </a>
+        <footer class="footerStyle">
+            <div class="py-1">
+                <div class="container-fluid pt-5 pb-4">
+                    <div class="row">
+                        <div class="col-md-2 col-12 d-md-block d-flex justify-content-center">
+                            <a href="./index.html">
+                            <img src="./img/logodoñasalta.png" loading="lazy"alt="Logo Doña Salta"class="logoFooter img-fluid" width="150px">
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <div>
+                                <h4 class="h4Footer mb-0 ">
+                                    Entregas:
+                                </h4>
+                            </div>
+                            <div>
+                                <p class="pFooter">
+                                    Viernes y Sabados: <br> 19:00 pm a 23:30 pm
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">   
+                        </div>
+                        <!-- Nuestras Redes solo para mobile -->
+                        <div class="col-md-2 d-block d-md-none mb-1">
+                            <h4 class="h4Footer mb-0">
+                                Seguinos en Nuestras Redes
+                            </h4>
+                            <div>
+                                <a href="https://api.whatsapp.com/send?phone=541112345678&text=Hola,%20Doña%20Salta%20!" 
+                                    target="_blank">    
+                                    <i class="fa-brands fa-whatsapp iconWhatsapp"></i>
+                                </a>
+                                <a href="https://facebook.com" target="_blank">
+                                    <i class="fab fa-facebook-f iconFacebook"></i>
+                                </a>
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <i class="fab fa-instagram iconInstagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Nuestras Redes solo para desktop -->
+                        <div class="col-md-2 d-none d-md-block">
+                            <h4 class="h4Footer mb-0">
+                                Seguinos en Nuestras Redes
+                            </h4>
+                            <div>
+                                <a href="https://api.whatsapp.com/send?phone=541112345678&text=Hola,%20Doña%20Salta%20!" 
+                                    target="_blank">    
+                                    <i class="fa-brands fa-whatsapp iconWhatsapp"></i>
+                                </a>
+                                <a href="https://facebook.com" target="_blank">
+                                    <i class="fab fa-facebook-f iconFacebook"></i>
+                                </a>
+                                <a href="https://instagram.com" target="_blank">
+                                    <i class="fab fa-instagram iconInstagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center text-muted copy derechos_reservados animate__animated animate__headShake animate__delay-2s animate__repeat-2">&copy; Copyright 2022 Doña Salta</p>
             </div>
-            <p class="derechos_reservados animate__animated animate__lightSpeedInLeft animate__delay-2s animate__repeat-3">
-                Copyright 2022 Doña Salta
-            </p>
         </footer>
-    </div>
-    <!-- final de pie de pagina-->
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+            crossorigin="anonymous">
+        </script>
+    </body>
 </html>

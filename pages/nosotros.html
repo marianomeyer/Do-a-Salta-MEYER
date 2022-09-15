@@ -1,72 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"  content="Empanadas del Norte, Sabores del Norte, Empanadas">
-    <meta name="description" content="Fabricamos Empanadas artesanales con el gusto de las empanadas que se pueden probar en el norte Argentino, se elabora todo artesanalmente incluido las mejores salsas para acompañar tus comidas">
-    <link rel="stylesheet" href="../estilos/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>Doña Salta: Nosotros</title>
-    <link rel="shortcut icon" href="./img/IMG_20220702_171231_063.jpg">
-</head>
-<body>
-    <!--inicio del header-->
-    <header class="encabezado">
-        <nav>
-            <img src="../img/IMG_20220702_171231_063.jpg" alt="Logo de empanada" width="200 px" class="logo">
-            <ul class="navegador">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="ubicacion.html">Ubicacion</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>   
-    </header>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="¡Podes conocer de nosotros, nuestra historia y como se forma el proceso!">
+        <meta name="keywords" content="Quienes Somos, Nuestra Historia, Sobre Nosotros">
+        <title>Nosotros | Doña Salta</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../css/estilos3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <script src="https://kit.fontawesome.com/5a26ebec28.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="headerStyle">
+            <nav class="navbar navbar-expand-lg"> 
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarToggler" 
+                        aria-controls="navbarToggler" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="../index.html" class="navbar-brand">
+                        <img src="../img/logodoñasalta.png" loading="lazy" width="150px" class="logoHeader animate__animated animate__pulse animate__slower" alt="Logo Doña Salta">
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="../index.html">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="productos.html">
+                                    Productos
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="nosotros.html">
+                                    Nosotros
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="ubicacion.html">
+                                    Ubicación
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="contacto.html">
+                                    Contacto
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
     <!--fin del header-->
-    <hr>
-    <main class="nosotros">
-        <section class="sobre_nosotros">
-            <div class="nosotros">
-                <div class="nuestronegocio">
-                    <h2>NUESTRO NEGOCIO</h2>
-                    <img src="../img/IMG_20220702_171306_430.jpg" alt="multiples empanadas" width="">
+    <main>
+        <div>
+            <h2 class="redText textStyle smallTitlePages animate__animated animate__headShake animate__delay-1s animate__repeat-3">NOSOTROS</h2>
+            <p class="pagesParagraph animate__animated animate__rubberBand animate__delay-1s animate__repeat-3">Descubre más sobre nosotros</p>
+        </div>
+        <section class="historiaSection">
+            <div class="text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <img srcset="../img/empanadascocinadas2-500.jpg 500w,
+                                        ../img/empanadascocinadas2-790.jpg 790w,    
+                                        ../img/empanadascocinadas2-1024.jpg 1024w" 
+                                sizes="(max-width: 320px) 500px,
+                                        (max-width: 768px) 790px,
+                                        1024px"
+                                src="../img/empanadascocinadas2-1024.jpg"
+                                loading="lazy" 
+                                alt="Pan cuadrado con avena" 
+                                class="pt-3 pt-md-0 img-fluid imagesSize">
+                        </div>
+                        <div class="px-md-5 p-3 d-flex flex-column justify-content-center col-md-6 col-12">
+                            <h3 class="orangeText textStyle smallText">Nuestra historia</h3>
+                            <p class="pagesParagraph">
+                                Desde hace unos años nos dedicamos a realizar
+                                las mejores empanadas artesanales bajo un 
+                                estilo familiar.
+                                Lo esencial de una buena empanada salteña,
+                                y principalmente las de Doña Salta es la calidad
+                                de sus ingredientes y su elaboración artesanal.
+                                Cada insumo se elige por su calidad y frescura, desde
+                                la masa hasta el recado. Se selecciona carne magra
+                                de primera, buscando incorporar el contenido graso justo
+                                y preciso para lograr el jugo perfecto que los caracteriza.
+                            </p>
+                            <p class="pagesParagraph">
+                                Y no podemos olvidar la yasgüita picante, esa salsita que 
+                                acompañamos en cada bocado, con un picor propio de las
+                                comidas norteñas.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="sabores_que_endulzan">
-                <h3>SABORES QUE ENDULZAN</h3>
-                <P>Somos un negocio dedicado a las especialidades mas ricas del norte de la Argentina, realizamos distintos tipos de variedades de comida acompañados con aderezos. Nos encontramos ubicados en Cordoba Capital.Nuestro objetivo es traer intactos los sabores del norte a todos nuestros clientes. 
-                </P>
-            </div>
-            <div class="centro_nosotros">
-                <img src="../img/IMG_20220702_171240_998.jpg" alt="empanadas_horno" width="500px" class="empanadas_horno">
-                <img src="../img/IMG_20220702_171250_410.jpg" alt="empanadas_horneadas" width="500px" class="empanadas_horneadas">
+        </section>
+        <section class="py-5">
+            <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner d-flex align-items-center">
+                    <div class="carousel-item active">
+                        <img srcset="../img/preparacion1-500.jpg 500w,
+                                    ../img/preparacion1-790.jpg 790w,    
+                                    ../img/preparacion1-1024.jpg 1024w" 
+                            sizes="(max-width: 320px) 500px,
+                                    (max-width: 768px) 790px,
+                                    1440px"
+                            src="../img/preparacion1-1024.jpg"
+                            loading="lazy" class="d-block w-50 mx-auto carouselImages" 
+                            alt="Preparacion empanadas 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img srcset="../img/preparacion2-500.jpg 500w,
+                                    ../img/preparacion2-790.jpg 790w,    
+                                    ../img/preparacion2-1024.jpg 1024w" 
+                            sizes="(max-width: 320px) 500px,
+                                    (max-width: 768px) 790px,
+                                    1440px"
+                            src="../img/preparacion2-1024.jpg" 
+                            loading="lazy" 
+                            class="d-block w-50 mx-auto carouselImages" 
+                            alt="Preparacion empanadas 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img srcset="../img/preparacion3-500.jpg 500w,
+                                    ../img/preparacion3-790.jpg 790w,    
+                                    ../img/preparacion3-1024.jpg 1080w" 
+                            sizes="(max-width: 320px) 500px,
+                                    (max-width: 768px) 790px,
+                                    1080px"
+                            src="../img/preparacion3-1024.jpg" 
+                            loading="lazy" 
+                            class="d-block w-50 mx-auto carouselImages" 
+                            alt="Preparacion empanadas 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
     </main>
     <!--fin de la informacion del local-->
-    <footer>
-        <!-- inicio de pie de pagina-->
-        <h4 class="animate__animated animate__lightSpeedInRight animate__delay-2s animate__repeat-3">
-            PODES SEGUIRNOS EN NUESTRAS REDES
-        </h4>
-        <div class="links">
-            <a href="https://facebook.com" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://whatsapp.com" target="_blank">
-                <i class="fab-fa-whatsapp whatsapp-icon"></i>
-            </a>
+    <footer class="footerStyle">
+        <div class="py-1">
+            <div class="container-fluid pt-5 pb-4">
+                <div class="row">
+                    <div class="col-md-2 col-12 d-md-block d-flex justify-content-center">
+                        <a href="../index.html">
+                        <img src="../img/logodoñasalta.png" loading="lazy"alt="Logo Doña Salta"class="logoFooter img-fluid" width="150px">
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <div>
+                            <h4 class="h4Footer mb-0 ">
+                                Entregas:
+                            </h4>
+                        </div>
+                        <div>
+                            <p class="pFooter">
+                                Viernes y Sabados: <br> 19:00 pm a 23:30 pm
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">   
+                    </div>
+                    <!-- Nuestras Redes solo para mobile -->
+                    <div class="col-md-2 d-block d-md-none mb-1">
+                        <h4 class="h4Footer mb-0">
+                            Seguinos en Nuestras Redes
+                        </h4>
+                        <div>
+                            <a href="https://api.whatsapp.com/send?phone=541112345678&text=Hola,%20Doña%20Salta%20!" 
+                                target="_blank">    
+                                <i class="fa-brands fa-whatsapp iconWhatsapp"></i>
+                            </a>
+                            <a href="https://facebook.com" target="_blank">
+                                <i class="fab fa-facebook-f iconFacebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <i class="fab fa-instagram iconInstagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Nuestras Redes solo para desktop -->
+                    <div class="col-md-2 d-none d-md-block">
+                        <h4 class="h4Footer mb-0">
+                            Seguinos en Nuestras Redes
+                        </h4>
+                        <div>
+                            <a href="https://api.whatsapp.com/send?phone=541112345678&text=Hola,%20Doña%20Salta%20!" 
+                                target="_blank">    
+                                <i class="fa-brands fa-whatsapp iconWhatsapp"></i>
+                            </a>
+                            <a href="https://facebook.com" target="_blank">
+                                <i class="fab fa-facebook-f iconFacebook"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank">
+                                <i class="fab fa-instagram iconInstagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-muted copy derechos_reservados animate__animated animate__headShake animate__delay-2s animate__repeat-2">&copy; Copyright 2022 Doña Salta</p>
         </div>
-        <p class="derechos_reservados animate__animated animate__lightSpeedInLeft animate__delay-2s animate__repeat-3">
-            Copyright 2022 Doña Salta
-        </p>
     </footer>
-    <!-- final de pie de pagina-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+        crossorigin="anonymous">
+    </script>
 </body>
 </html>

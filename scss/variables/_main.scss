@@ -1,0 +1,179 @@
+/*css de los mains*/
+main { 
+    background-color:beige; }
+  
+  .nombreBackground {
+    opacity: 0.7;
+    background-image: radial-gradient(#ff7fb1 0.5px, #EAF6F6 0.5px); }
+  
+  .cardStyle {
+    filter: drop-shadow(5px 5px 5px #cecece); }
+    .cardStyle .cardText {
+      text-align: center; }
+    .cardStyle .cardButton {
+      padding: 8% 15%;
+      margin: 13% 0;
+      width: 105px; }
+  
+  .styleButton {
+    border-radius: 8px;
+    border: 2px solid #ff9b7f;
+    background-color: transparent;
+    position: relative;
+    z-index: 5;
+    transition: 1s all ease; }
+    .styleButton::before {
+      background: #ff9b7f;
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+      transition: all 0.6s ease;
+      width: 0%;
+      height: 100%; }
+    .styleButton:hover::before {
+      width: 100%; }
+  
+  .nosotros {
+    background-color: beige; }
+  
+  .pSections {
+    text-align: center; }
+  
+  .paragrahAndButton {
+    margin: 2% 0;
+    padding: 8% 4%;
+    width: 120px; }
+  
+  .contactoInicio {
+    background-color: beige; }
+  
+  .flipCard {
+    display: inline-block;
+    text-align: center;
+    overflow: hidden; }
+    .flipCard .imgCard {
+      transition: all .5s ease; }
+    .flipCard .productosAndRecetasImages {
+      width: 90%;
+      margin-bottom: 15%; }
+    .flipCard .flipCardImage {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      justify-content: center; }
+      .flipCard .flipCardImage .flipCardText {
+        color: rgb(181, 40, 8);
+        font-size: 1.4em;
+        z-index: 5;
+        opacity: 0;
+        transition: all .5s ease;
+        position: absolute; }
+      .flipCard .flipCardImage:active .imgCard {
+        opacity: 0.6;
+        filter: blur(5px);
+        transform: scale(1.15); }
+      .flipCard .flipCardImage:active .flipCardText {
+        opacity: 1;
+        transition: all 1.5s ease; }
+      .flipCard .flipCardImage:hover .imgCard {
+        opacity: 0.6;
+        filter: blur(5px);
+        transform: scale(1.15); }
+      .flipCard .flipCardImage:hover .flipCardText {
+        opacity: 1;
+        transition: all 1.5s ease; }
+  
+  .historiaSection {
+    background-color: beige; }
+  
+  .cardStyle {
+    filter: drop-shadow(5px 5px 5px beige); }
+    .cardStyle .cardTextNosotros {
+      margin-top: 5%;
+      margin-bottom: 1%; }
+  
+  .carousel-inner .carousel-item {
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease, -webkit-transform .6s ease; }
+  
+  .formSection {
+    background-color: beige; }
+    .formSection .styleButton {
+      border-radius: 8px;
+      border: 2px solid #ffa57f;
+      background-color: transparent;
+      position: relative;
+      z-index: 5;
+      transition: 1s all ease; }
+      .formSection .styleButton::before {
+        background: #ff9b7f;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        transition: all 0.6s ease;
+        width: 0%;
+        height: 100%; }
+      .formSection .styleButton:hover::before {
+        width: 100%; }
+    .formSection .formButton {
+      margin: 4% 33%;
+      padding: 2% 15%; }
+  
+  .infoDeContactoText {
+    padding-left: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 18px; }
+  
+  .redesText {
+    padding-top: 5%; }
+  
+  .iconsSize {
+    font-size: 25px;
+    padding: 10px 5px; }
+  
+  .iconInstagramContacto, .iconWhatsappContacto {
+    color: red; }
+    .iconInstagramContacto:hover, .iconWhatsappContacto:hover {
+      color: red;
+      transition: 300ms linear; }
+  
+  .iconWhatsappContacto:hover {
+    color: green; }
+  
+  .mapSize {
+    width: 100%; }
+  
+  .error {
+    height: 90vh;
+    background-color: beige; }
+    .error section h2 {
+      margin-top: 1rem;
+      text-align: center;
+      width: 100%;
+      color: #ff7fb1;
+      font-size: 3rem; }
+    .error section div {
+      position: relative; }
+      .error section div h3 {
+        font-size: 9rem;
+        line-height: 1.5;
+        font-family: "Righteous", cursive;
+        color: rgba(0, 0, 0, 0.3); }
+    .error section h3 {
+      margin-top: 2rem;
+      text-align: center;
+      width: 100%; }
+      .error section h3 a {
+        color: black;
+        font-family: "Righteous", cursive; }
+        .error section h3 a:hover {
+          color: #ff7fb1;
+          transition: 300ms linear; }         

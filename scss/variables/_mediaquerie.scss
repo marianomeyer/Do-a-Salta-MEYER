@@ -1,285 +1,43 @@
-/*mediaquarre de tablet*/
-@media only screen and (min-width: 768px) and (max-width: 1239px) {
-    .encabezado nav{
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 150px;
-        width:550px;
-        font-size: 20%;
-        .encabezado nav img{
-            width: 20%;
-        }
-    }
-    
-    .navegador{
-        display: flex;
-        list-style: none;
-        gap: 20px;
-        font-size:10%;
-        .navegador li a{
-            text-decoration: none;
-            font-size: 1.3rem;
-            align-content: space-between;
-            color: brown;
-        }
-    }
-
-    .container_grid{
-        min-height: 100vh;
-        display: grid;
-        grid-template-areas: "header"
-                             "main" 
-                             "footer";
-        grid-template-columns: auto; 
-        grid-template-rows:auto;                    
-    }
-
-    
-
-    h2{
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-size: 25px;
-        font-weight: bold;
-        color: darkblue;
-
-    }
-
-    .inicio{
-        width: 85%;
-        .inicio_medio{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            }
-            .clases{
-                display: flex;
-                flex-direction: row;
-                justify-content: left;
-                align-items: left;
-                width:100%;
-                gap:5px;
-            }
-            h1{
-                font-style: normal;
-                font-weight: bolder;
-                font-size:70px;
-                font-family: 'Roboto', sans-serif;
-                text-align: center;
-                position: relative;
-                width: 100%;
-                color: rgba(68, 6, 6, 0.987);
-            }
-    } 
-
-    
-    .inicio_final{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
-        width:100%;
-        .parrafo_inicial{
-            display: flex;
-            flex-direction: column;
-            font-style: normal;
-            font-weight: bold;
-            font-size:15px;
-            font-family: 'Poppins', sans-serif;
-            text-align: center;
-            text-transform: uppercase;
-            color: firebrick;
-            width: 80%;
-            margin-top: 150px;}
-            .imagen_final{
-                display: flex;
-                align-items: center;
-                width: auto;
-                margin: top 100px;
-            }  
-        
-    }
-
-    .container2_grid{
-        min-height: 100vh;
-        display: grid;
-        grid-template-areas: "header"
-                             "main" 
-                             "footer";
-        grid-template-columns: auto; 
-        grid-template-rows:auto;  
-    }
-
-    .nuestros_productos{
-        font-style: normal;
-        font-weight: bold;
-        font-size:70px;
-        font-family: 'Poppins', sans-serif;
-        text-align: left;
-        text-transform: uppercase;
-        text-align: center;
-        color: indigo;
-    }
-
-    .podes_encontrarnos{
-        display: flex;
-        align-items: flex-start;
-    }
-
-    iframe{
-        width: 100%;
-    }
-
-    footer{
-        font-size: 0.8rem;
-        align-items: center;
-        display: flex;
-        width: auto;
-    }
-    
-    h4{
-        font-size: 1.1rem;
-    }
-
-}
-
-/*mediaquarre de movil*/
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-    .encabezado nav{
-        width:100%;
-        font-size: 15%;
-        .encabezado nav img{
-            width: 25%;
-        }
-    }
-
-    .navegador{
-        display: flex;
-        list-style: none;
-        gap: 2px;
-        font-size:10%;
-        .navegador li a{
-            text-decoration: none;
-            flex-direction: column;
-            font-size: 0.65rem;
-            justify-content: center;
-            color: brown;
-        }
-    }
-
-    .container_grid{
-        min-height: 100vh;
-        display: grid;
-        grid-template-areas: "header"
-                             "main" 
-                             "footer";
-        grid-template-columns: auto; 
-        grid-template-rows:auto;                    
-    }
-
-    .inicio{
-        width: 75%;
-        h1{
-            font-style: normal;
-            font-weight: bolder;
-            font-size:1.8rem;
-            font-family: 'Roboto', sans-serif;
-            text-align: center;
-            position: relative;
-            width: 100%;
-            color: rgba(68, 6, 6, 0.987);
-        }
-    }
-
-    
-
-    h2{
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-size: 30px;
-        font-weight: bold;
-        color: darkblue;
-    }
-
-    .inicio_medio{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        .clases{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 70%;
-            gap: 20px;
-        }
-    }
-
-    
-    
-    .inicio_final{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        gap: 30px;
-        width:100%;
-        .parrafo_inicial{
-            display: flex;
-            flex-direction: column;
-            font-style: normal;
-            font-weight: bold;
-            font-size:15px;
-            font-family: 'Poppins', sans-serif;
-            text-align: left;
-            text-transform: uppercase;
-            color: firebrick;
-            width: 75%; 
-        }
-        .imagen_final{
-            display: flex;
-            width: 300px;
-        }  
-    }
-    
-    .container2_grid{
-        min-height: 100vh;
-        display: grid;
-        grid-template-areas: "header"
-                             "main" 
-                             "footer";
-        grid-template-columns: auto; 
-        grid-template-rows:auto;  
-    }
-
-    .nuestros_productos{
-        font-style: normal;
-        font-weight: bold;
-        font-size:55px;
-        font-family: 'Poppins', sans-serif;
-        text-align: left;
-        text-transform: uppercase;
-        text-align: center;
-        color: indigo;
-    }
-
-    .podes_encontrarnos{
-        display: flex;
-        align-items: flex-start;
-    }
-
-    iframe{
-        width: 100%;
-    }
-
-    footer{
-        font-size: 0.8rem;
-        align-items: center;
-        display: flex;
-        width: 100%;
-    }
-
-    h4{
-        font-size: 0.7rem;
-    }
-
-}
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 767.999px) {
+    .headerStyle .navbar .logoHeader {
+      max-width: 100%;
+      width: 110px;
+      margin: 3% 0; }
+    .headerStyle .navbar .navbar-nav {
+      transform: translateX(0%) !important;
+      flex-direction: column;
+      align-items: center; }
+    .smallText, .smallTitlePages {
+      font-size: 25px; }
+    .bigText {
+      font-size: 50px; }
+    .cardText {
+      font-size: 20px; }
+    .pagesParagraph {
+      padding: 2% 5%;
+      max-width: 100%; }
+    .mapSize {
+      width: 100%; }
+    .imagesSize {
+      height: auto;
+      width: auto; }
+    .carouselImages {
+      width: 70% !important; } }
+  
+  /* Tablet */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .headerStyle .navbar .navbar-nav {
+      transform: translateX(0%) !important;
+      flex-direction: column;
+      align-items: center; }
+    .cardText {
+      font-size: 20px; }
+    .mapSize {
+      width: 100%;
+      height: 335px; }
+    .imagesSize {
+      height: auto;
+      width: auto; }
+    .carouselImages {
+      width: 80% !important; } }
